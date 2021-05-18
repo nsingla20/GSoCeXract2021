@@ -3,9 +3,9 @@
 ## Procedure
 Ensure u have phthon installed
 Compile and run f.py file using
-'''
+```
 phyton3 f.py
-'''
+```
 
 ### First Try
 Firstly I tried with normal requests and beautysoup procedure i.e geting html files and searching tags in them (inspecting through Browser developer tools.
