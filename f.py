@@ -3,7 +3,7 @@ import requests
 import csv
 import json
 def browse_and_scrape(url):
-    with open("gsoc2021.csv",'w') as file:
+    with open("gsoc2021.csv",'w',encoding='utf-8') as file:
         writer=csv.writer(file)
         writer.writerow(["NAME","Organisation","Project"])
         try:
